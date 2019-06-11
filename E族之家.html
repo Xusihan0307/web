@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>E族之家</title>
+		<style type="text/css">
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		ul{
+		list-style-type: none;
+		}
+		li{
+		font-size: 16px;
+		display: inline-block;
+	}
+		/*灰色栏*/
+		.login{
+			width: 1500px;
+			height: 31px;
+			background-color: rgb(244,244,244);
+			background-image: url(images/QQ.jpg);
+			background-repeat: no-repeat;
+			background-position: 330px 1px;
+		}
+		.zong1{
+			width: 1200px;
+			height: 31px;
+			margin: 0 auto;
+			background-color: rgb(244,244,244);
+		}
+		.zuohe{
+			float: left;
+		}
+		.shoucang{
+			margin-left: 120px;
+			height:31px;
+			line-height: 31px;
+			font-size: 12px;
+		}
+		.shouji{
+			margin:12px;
+			height:31px;
+			line-height: 31px;
+			font-size: 12px;
+		}
+		.shoujihao{
+			margin: 4px;
+			height:31px;
+			line-height: 31px;
+			font-size: 12px;
+		}
+		.youhe{
+			height: 31px;
+			width: 500px;
+			margin-left: 300px;
+			float: right;
+			margin-right: -50px;
+
+		}
+		.saomiao{
+			width: 72px;
+			height: 28px;
+			float: left;
+			margin-left: 230px;
+			/*margin: 570px;*/
+			height:31px;
+			line-height: 31px;
+			font-size: 12px;3
+		}
+		.huanying{
+			width: 185px;
+			height: 30px;
+			float: right;
+  			/*margin-right: 80px;*/
+			height:31px;
+			line-height: 31px;
+			font-size: 12px;
+		}
+		/*搜索那一栏*/
+		.sskuang{
+			height: 161px;
+			width: 1500px;
+			border-bottom-color:rgb(224,3,4);
+			border-top-color: rgb(236,236,236);
+			border-bottom-style:solid; 
+			border-top-width: 1px;
+			border-bottom-width: 3px; 
+		}
+		.Etu{
+			margin-left: 170px;
+			width:191px;
+			height:100px;
+			margin-top: 20px;
+			float:left;
+		}
+		.anniu{
+			width: 91px;
+			height: 44px;
+			margin-left:4px;
+			float: left;
+			margin-top:40px;
+		}
+		.anniu input{
+			border-color: rgb(248,56,56);
+			border-style: solid;
+			border-width: 2px;
+			font-size: 14px;
+			color: rgb(255,255,255);
+			width: 91px;
+			height: 44px;
+			background-color: rgb(248,56,56);
+			float: left;
+		}
+		.guanjianci{
+			width: 407px;
+			height: 40px;
+			margin-left:200px; 
+			float:left;
+			margin-top: 0px;
+		}
+		.guanjianci input{
+			border-color: rgb(248,56,56);
+			border-style: solid;
+			border-width: 2px;
+			font-size: 14px;
+			color: rgb(212,212,212);
+			width: 407px;
+			height: 40px;
+			margin-top: 40px;
+			float: left;
+		}
+		.gouwuche{
+			width: 150px;
+			height: 40px;
+			border-width: 1px;
+			border-color: rgb(227,227,227);
+			background-color: rgb(245,245,245);
+			float: left;
+			margin-left: 100px;
+			border-style: solid;
+			margin-top: 39px;
+		}
+		.gouwuche img{
+			float: bottom;
+		}
+		.daohang{
+			width: 100%;
+			height: 37px;
+			float: left;
+		}
+		.daohang0{
+		height: 33px;
+		width: 923px;
+	}
+	.daohang1{
+		width: 79px;
+		height: 23px;
+		line-height: 23px;
+		border:5px solid #ffffff;
+		margin-left: 180px;
+		text-align: center; 
+		float: left;
+	}
+	.daohang2{
+		width: 79px;
+		height: 23px;
+		line-height: 23px;
+		float: left;
+		text-align: center;
+		border:5px solid #ffffff; 
+		margin-left: 15PX;
+	}
+	li>a:hover{
+		color: #ffffff;
+	}
+	.daohang1:hover{
+		background-color: #fd0304;
+		border:6px solid #fd0304;
+		border-radius: 6px;
+	}
+	.daohang2:hover{
+		background-color: #fd0304;
+		border:6px solid #fd0304;
+		border-radius:6px;
+	}
+		/*图片那一部分*/
+		.tu{
+			width: 100%;
+			height: 652px;
+			background-color: rgb(251,251,251);
+		}
+		.hezi{
+			width: 1560px;
+			height:652px;
+		}
+		.weizhi{
+			font-size: 14px;
+			margin-left: 181px;
+			float: left;
+			margin-top: 28px;
+			width: 100%;
+			height: 21px;
+		}
+		.fenlei{
+			width: 215px;
+			height: 43px;
+			line-height: 43px;
+			float: left;
+			background-color: rgb(255,255,255);
+			margin-top: 25px;
+		}
+		.tu2{
+			margin-left: 34px;
+
+		}
+		.tu3{
+			width: 990px;
+			height: 563px;
+			background-color: rgb(255,255,255);
+			float: left;
+			margin-left: 13px;
+			margin-top: 25px;
+		}
+		.food{
+			width: 215px;
+			height: 510px;
+			background-color: rgb(255,255,255);
+			float: left;
+			/*margin-left: 25px;*/
+			margin-top: 10px;
+		}
+		.shipin{
+			color: rgb(255,44,24);
+			font-size: 14px;
+			margin-top: 18px;
+			margin-left: 77px;
+		}
+		.shenghuo{
+			font-size: 14px;
+			margin-top: 32px;
+			margin-left: 77px;
+		}
+		.zuo{
+			width: 216px;
+			height: 580px;
+			float: left;
+			margin-left: 181px;
+		}
+		.lajiao1{
+			width: 225px;
+			height: 259px;
+			float: left;
+			margin-left: 16px;
+			margin-top: 19px;
+		}
+		.baixiang1{
+			width: 225px;
+			height: 259px;
+			float: left;
+			margin-left: 19px;
+			margin-top: 20px;
+		}
+		.jiuping1{
+			width: 225px;
+			height: 259px;
+			float: left;
+			margin-left: 19px;
+			margin-top: 20px;
+		}
+		.zhenzi1{
+			width: 220px;
+			height: 259px;
+			float: left;
+			margin-left: 19px;
+			margin-top: 20px;
+		}
+		.lajiao2{
+			width: 225px;
+			height: 259px;
+			margin-left: 19px;
+			margin-top: 20px;
+			float: left;
+		}
+		.baixiang2{
+			width: 225px;
+			height: 259px;
+			margin-left: 19px;
+			margin-top: 20px;
+			float: left;
+		}
+		.jiuping2{
+			width: 225px;
+			height: 259px;
+			margin-left: 19px;
+			margin-top: 20px;
+			float: left;
+		}
+		.zhenzi2{
+			width: 225px;
+			height: 259px;
+			margin-left: 19px;
+			margin-top: 20px;
+			float: left;
+		}
+		/*heise*/
+		.heise{
+			width: 1500px;
+			height: 248px;
+			background-color: rgb(46,46,46);
+		}
+		.xinshou{
+			width: 230px;
+			height: 35px;
+			color: rgb(255,255,255);
+			font-size: 16px;
+			float: left;
+			margin-left: 181px;
+			margin-top: 22px;
+		}
+		.peisong{
+			width: 230px;
+			height: 35px;
+			color: rgb(255,255,255);
+			font-size: 16px;
+			float: left;
+			margin-left: 25px;
+			margin-top: 22px;
+		}
+		.gouwu{
+			width: 230px;
+			height: 35px;
+			color: rgb(255,255,255);
+			font-size: 16px;
+			float: left;
+			margin-left: 25px;
+			margin-top: 22px;
+		}
+		.shouhou{
+			width: 230px;
+			height: 35px;
+			color: rgb(255,255,255);
+			font-size: 16px;
+			float: left;
+			margin-left: 5px;
+			margin-top: 22px;
+		}
+		.guanyu{
+			width: 230px;
+			height: 35px;
+			color: rgb(255,255,255);
+			font-size: 16px;
+			float: left;
+			margin-left: 10px;
+			margin-top: 22px;
+		}
+		.chang1{
+			width: 83px;
+			height: 86px;
+			float: left;
+			margin-left: 185px;
+			margin-top: 4px;
+		}
+		.chang1 p{
+			color: rgb(255,255,255);
+			font-size: 14px;
+			line-height: 30px;
+		}
+		.chang2{
+			width: 90px;
+			height: 86px;
+			float: left;
+			margin-left: 170px;
+			margin-top: 4px;
+		}
+		.chang2 p{
+			color: rgb(255,255,255);
+			font-size: 14px;
+			line-height: 30px;
+		}
+		.chang3{
+			width: 90px;
+			height: 86px;
+			float: left;
+			margin-left: 170px;
+			margin-top: 4px;
+		}
+		.chang3 p{
+			color: rgb(255,255,255);
+			font-size: 14px;
+			line-height: 30px;
+		}
+		.chang4{
+			width: 90px;
+			height: 86px;
+			float: left;
+			margin-left: 140px;
+			margin-top: 4px;
+		}
+		.chang4 p{
+			color: rgb(255,255,255);
+			font-size: 14px;
+			line-height: 30px;
+		}
+		.chang5{
+			width: 90px;
+			height: 86px;
+			float: left;
+			margin-left: 140px;
+			margin-top: 4px;
+		}
+		.chang5 p{
+			color: rgb(255,255,255);
+			font-size: 14px;
+			line-height: 30px;
+		}
+		.zuixia{
+			width: 1560px;
+			height: 96px;
+			float: left;
+			margin-left: 
+		}
+		.xia1{
+			width: 1201px;
+			height:100px;
+			float: left;
+			margin-left: 180px;
+			color: rgb(132,132,132);
+			border-top-color: rgb(132,132,132);
+			border-top-style: solid;
+			border-width: 1px;
+			margin-top: 28px;
+		}
+		.wen1{
+			float: left;
+			margin-left: 330px;
+			margin-top: 10px;
+			font-size: 14px;
+		}
+		.wen2{
+			float: left;
+			margin-left: 330px;
+			font-size: 14px;
+			margin-top: 8px;
+		}
+		</style>
+	</head>
+	<body>
+	<form>
+		<div class="login">
+		<div class="zong1">
+		<div class="zuohe">
+			<span class="shoucang">我的收藏</span>
+			<span class="shouji">E族之家手机版&nbsp;</span>
+			<span class="shoujihao">328203328</span>
+		</div>
+		<div class="youhe">	
+			<span class="saomiao">扫描加入</span>
+			<span class="huanying">欢迎来到E族之家，请登录|注册</span>
+		</div>
+		</div>	
+		</div>
+		<div class="sskuang"> 
+			<span class="Etu"><img src="images/E族之家.jpg" alt="E族之家"></span>
+		<div class="guanjianci">
+			<input type="text" name="sousuo" value="请输入关键词!" />
+		</div>
+		<div class="anniu">	
+			<input type="button" name="ss" value="搜索" />
+		</div>
+		<div class="gouwuche">
+			<img src="images/购物车.jpg" alt="购物车"/>
+			<span>购物车(0)件</span>
+		</div>
+		<div class="daohang">
+			<ul class="daohang0">
+			<div class="daohang1">
+				<li><a href="#">首页</a></li>
+			</div>
+			<div class="daohang2">
+				<li><a href="#">E族生活</a></li>
+			</div>
+			<div class="daohang2">
+				<li><a href="#">E族服务</a></li>
+			</div>
+			<div class="daohang2">
+				<li><a href="#">E族爱心</a></li>
+			</div>
+		</ul>
+	</div>
+		</div>
+		</div>
+		<div class="tu">
+		<div class="hezi">
+		<div class="weizhi">当前位置：E族爱心>食品</div>
+		 <div class="zuo">
+			<div class="fenlei">
+				<span class="tu2"><img src="images/分类.jpg" alt="分类"/></span>
+				<span class="wenzi">全部分类</span>
+			</div>
+			<div class="food">
+				<div class="shipin">>食品</div>
+				<div class="shenghuo">>生活用品</div>
+			</div>
+			</div>
+			<div class="tu3">
+				<div class="lajiao1">
+					<img src="images/辣椒.jpg" alt="辣椒"/>
+				</div>
+				<div class="baixiang1">
+					<img src="images/百香果.jpg" alt="百香果"/>
+				</div>
+				<div class="jiuping1">
+					<img src="images/酒瓶.jpg" alt="酒瓶"/>
+				</div>
+				<div class="zhenzi1">
+					<img src="images/榛子.jpg" alt="榛子"/>
+				</div>
+				<div class="lajiao2">
+					<img src="images/辣椒.jpg" alt="辣椒"/>
+				</div>
+				<div class="baixiang2">
+					<img src="images/百香果.jpg" alt="百香果"/>
+				</div>
+				<div class="jiuping2">
+					<img src="images/酒瓶.jpg" alt="酒瓶"/>
+				</div>
+				<div class="zhenzi2">
+					<img src="images/榛子.jpg" alt="榛子"/>
+				</div>
+
+			</div>
+		</div>
+		</div>
+		<div class="heise">
+		<!--<div class="hh">-->
+			<div class="xinshou">
+				新手上路
+			</div>
+			<div class="peisong">
+				配送方式
+			</div>
+			<div class="gouwu">
+				购物指南
+			</div>
+			<div class="shouhou">
+				售后服务
+			</div>
+			<div class="guanyu">
+				关于我们
+			</div>
+			<div class="chang1">
+				<p>售后流程</p>
+				<p>购物流程</p>
+				<p>订购方式</p>
+			</div> 
+			<div class="chang2">
+				<p>货到付款区域</p>
+				<p>配送支付查询</p>
+				<p>支付方式说明</p>
+			</div>
+			<div class="chang3">
+				<p>常见问题</p>
+				<p>订购流程</p>
+				<p>注册新会员</p>
+			</div>
+			<div class="chang4">
+				<p>退换货原则</p>
+				<p>售后服务保证</p>
+				<p>换货流程</p>
+			</div>
+			<div class="chang5">
+				<p>网站故障报告</p>
+				<p>联系我们</p>
+				<p>投诉与建议</p>
+			</div>
+		<!--</div>-->
+		<div class="zuixia">
+		<div class="xia1">
+			<div class="wen1">E族生活&nbsp&nbsp|&nbsp&nbsp居家维修保护&nbsp&nbsp|&nbsp&nbsp住宿优惠信息&nbsp&nbsp|&nbsp&nbsp出行接送&nbsp&nbsp|&nbsp&nbspE族活动&nbsp&nbsp|&nbsp&nbspE族爱心&nbsp&nbsp|&nbsp&nbsp积分商城&nbsp&nbsp</div>
+			<div class="wen2">
+				© 2017-2018 E族之家 版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号
+			</div>
+		</div>
+		</div>
+	</form>
+	</body>
+</html>
